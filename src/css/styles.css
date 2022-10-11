@@ -50,6 +50,40 @@ body {
   border: 1px solid #0a2128;
   padding: 0.5rem;
   margin-bottom: 1.5rem;
+  background-color: #d0ded4;
+  color: #0a2128;
+}
+.card #choose-2 {
+  border-radius: 5px;
+  color: #0a2128;
+  width: 250px;
+  height: 2rem;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.card #choose-2:focus {
+  transition: 1s;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border: none;
+}
+.card #choose-2::-moz-placeholder {
+  font-size: 1.3rem;
+}
+.card #choose-2:-ms-input-placeholder {
+  font-size: 1.3rem;
+}
+.card #choose-2::placeholder {
+  font-size: 1.3rem;
+}
+.card #choose-2:focus::-moz-placeholder {
+  color: transparent;
+}
+.card #choose-2:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.card #choose-2:focus::placeholder {
+  color: transparent;
 }
 .card .btn {
   border: none;
