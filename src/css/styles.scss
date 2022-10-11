@@ -1,0 +1,83 @@
+// COLORS
+$dark: #0a2128;
+$white: #d0ded4;
+$green: #a9c869;
+$blue: #629da0;
+
+// FONT
+$font: "Work Sans", sans-serif;
+
+html {
+  height: 100vh;
+}
+
+body {
+  font-family: $font;
+  background-color: $white;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+  h1 {
+    border-radius: 15px 15px 0 0;
+    margin: 0;
+    background-color: $green;
+    color: $blue;
+    font-size: 3rem;
+    width: 100%;
+    padding: .7rem 0;
+    i {
+      font-size: 2.5rem;
+    }
+  }
+  h2 {
+    font-size: 1.5rem;
+    color: $dark;
+    &:first-of-type {
+      margin-top: 2rem;
+    }
+  }
+  input::file-selector-button {
+    background-color: $green;
+    border-radius: 5px;
+  }
+  .choose {
+    border-radius: 10px;
+    border: 1px solid $dark;
+    padding: .5rem;
+    margin-bottom: 1.5rem;
+  }
+  .btn {
+    border: none;
+    background-color: $dark;
+    color: $white;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    padding: .7rem 1.5rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    i {
+      margin-left: .3rem;
+      font-size: 1.2rem;
+    }
+  }
+  h4 {
+    border-radius: 0 0 15px 15px;
+    margin: 0;
+    font-weight: 200;
+    background-color: $green;
+    width: 100%;
+    padding: 1rem 0;
+    a {
+      color: black;
+    }
+  }
+}

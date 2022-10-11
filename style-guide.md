@@ -1,7 +1,10 @@
 # Style Guide for Share To including colors and fonts
 
 ## Colors
-- Blue: #123b78
-- Orange: #fc9251
-- Dark: #0a2128
+- Green: #a9c869
+- Blue: #629da0
 - White: #d0ded4
+- Dark: #0a2128
+
+## Font
+- Works Sans
